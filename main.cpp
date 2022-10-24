@@ -44,7 +44,7 @@ std::string formatColor(std::string str, std::string color, bool bold = false)
 
 	Colors Colors;
 
-	if (color == red)
+	/* if (color == red)
 	{
 		return Colors.start + (bold ? "1" : "") + Colors.red + str + Colors.end;
 	}
@@ -55,7 +55,7 @@ std::string formatColor(std::string str, std::string color, bool bold = false)
 	else if (color == grey)
 	{
 		return Colors.start + (bold ? "1" : "") + Colors.grey + str + Colors.end;
-	}
+	} */
 
 	return str;
 };
